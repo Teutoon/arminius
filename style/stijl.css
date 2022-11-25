@@ -1,0 +1,98 @@
+body {
+ font-family: Calibri, Arial, sans-serif;
+ background-color: pink;
+}
+h1 {
+ color: lightblue;
+ background-color: purple;
+ font-size: 25px;
+}
+header {
+ background-color: lightgreen;
+ font-size: 20px;
+ widht: 100%;
+ height: 100px;
+}
+footer {
+ background-color: yellow;
+ font-weight: bold;
+ font-size: 20px;
+ width: 100%;
+ height: 100px;
+}
+.groot {
+ width: 750px;
+ height: 500px;
+ background-color: lightgreen;
+}
+.groter {
+ width: 950px;
+ height: 600px;
+ background-color: pink;
+}
+.grootst {
+ width: 1200px;
+ height: 900px;
+ background-color: lightblue;
+}
+table, td {
+ border: 2px solid;
+ border-collapse: collapse;
+ font-weight: bold;
+ font-size: 25px;
+}
+td {
+ border: 2px solid;
+ font-weight: bold;
+ font-size: 25px;
+ height: 140px;
+ width: 140px;
+}
+#cf23 {
+ background-color: #f23;
+}
+#cf34 {
+ background-color: #f34;
+}
+#cf45 {
+ background-color: #f45;
+}
+#cf56 {
+ background-color: #f56;
+}
+#ca67 {
+ background-color: #f67;
+}
+#ca78 {
+ background-color: #a78;
+}
+#ca89 {
+ background-color: #a89;
+}
+#ca90 {
+ background-color: #a90;
+}
+#cd10 {
+ background-color: #d10;
+}
+#cd20 {
+ background-color: #d20;
+}
+#cd30 {
+ background-color: #d30;
+}
+#cd40 {
+ background-color: #d40;
+}
+#cedc {
+ background-color: #edc;
+}
+#cdcb {
+ background-color: #dcb;
+}
+#ccba {
+ background-color: #cba;
+}
+#cba0 {
+ background-color: #ba0;
+}
