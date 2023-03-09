@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang=nl-NL>
+<head>
+ <meta charset=utf-8>
+ <meta name=author content="Erik Haan">
+ <meta name=description content="">
+ <meta name=keywords content="JavaScript, JQuery">
+ <meta name=viewport content="width=device-width, initial-scale=1">
+ <link rel=stylesheet href=http://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css>
+ <title>JavaScript JQuery Sjabloon</title>
+ <script src=http://code.jquery.com/jquery-3.1.0.min.js>
+ </script>
+ <script src=http://code.jquery.com/ui/1.12.0/jquery-ui.min.js>
+ </script>
+<script>
+ $(document).ready(function() {
+ $("#verberg").click(function() {
+ $("p").hide();
+ });
+ $("#toon").click(function() {
+ $("p").show();
+});
+});
+ </script>
+</head>
+<body>
+<header>
+ <h1>header</h1>
+</header>
+<button id=verberg>Verberg de tekst</button>
+<button id=toon>Toon de tekst</button>
+<p>Met de knoppen kunt u deze tekst tonen en verbergen.</p>
+<p>En u kunt de tekst zo lang maken als u zelf wilt. Alles zal verborgen worden en blijven.</p>
+<noscript>
+Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+</noscript>
+
+<footer style=background:red;>hier komen alle gegevens die in een normale footer staan.
+</footer>
+</body>
+</html>
