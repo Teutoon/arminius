@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang=nl-NL>
+<head>
+ <title>Laat plaatjes verdwijnen</title>
+ <meta charset=utf-8>
+ <meta name=author content="Erik Haan">
+ <meta name=description content="#">
+ <meta name=keywords content="#">
+ <meta name=viewport content="width=device-width, initial-scale=1">
+ <style>
+  button {
+  border: solid 2px;
+  border-radius: 100px;
+  width: 100px;
+  color: black;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.rood {
+  background: red;
+}
+.groen {
+  background: #4caf50;
+}
+ </style>
+ <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js>
+ </script>
+ <script>
+ $(document).ready(function() {
+
+// Hierbinnen komt de code
+// JQuery code wordt pas uitgevoerd als de hele pagina geladen is
+ $("#verberg").click(function(){
+  $("img").hide();
+ });
+ $("#toon").click(function(){
+  $("img").show();
+ });
+});
+</script>
+<script>
+</script>
+</head>
+<body>
+<header>
+ <h1>Laat de plaatjes op magische wijze verdwijnen</h1>
+</header>
+<img src=../img/denbosch222.jpg width=250 alt="Den Bosch">
+<img src=../img/ijsselbijbronkhorst.jpg width=250 alt="IJssel bij Bronkhorst">
+<p>
+Hier staan twee plaatjes, die ik met een druk op de rode knop op magische wijze laat verdwijnen.<br>
+Druk op de groene knop en de plaatjes verschijnen weer.
+</p>
+
+<button id=verberg class=rood>Verdwijn</button>
+<button id=toon class=groen>Verschijn</button>
+<nav>
+<ul>
+<li>Dit is geen link</li>
+<li>En dit is ook geen link</li>
+</ul>
+</nav>
+<footer style=background:red;>hier komen alle gegevens die in een normale footer staan.
+</footer>
+</body>
+</html>
